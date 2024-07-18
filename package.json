@@ -1,0 +1,18 @@
+{
+  "name": "mailing_list",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Rhymond",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "faker": "^6.6.6",
+    "mysql2": "^3.10.3"
+  }
+}

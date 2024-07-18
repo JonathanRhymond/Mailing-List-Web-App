@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="/app.css">
+
+<script>
+    // Wait for the DOM to load
+    document.addEventListener("DOMContentLoaded", function() {
+      // Wait for 10 seconds (10000 milliseconds)
+      setTimeout(function() {
+        // Redirect to home page
+        window.location.href = "/";
+      }, 10000);
+    });
+</script>
+<h1>Welcome</h1>
+<p>It looks like you're all signed up <%=fname%> <%=lname%>!</p>
+<p>We'll be in touch with <%=email%> soon!</p>
+<br>
+<p>You will be redirected to the homepage in 10 seconds.</p>

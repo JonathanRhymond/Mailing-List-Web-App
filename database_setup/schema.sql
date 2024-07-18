@@ -1,0 +1,11 @@
+CREATE DATABASE mailing_list;
+
+USE mailing_list;
+
+CREATE TABLE users (
+	id INTEGER AUTO_INCREMENT PRIMARY KEY,
+	fname VARCHAR(255),
+    lname VARCHAR (255),
+    email VARCHAR(255) UNIQUE NOT NULL,
+    created_at TIMESTAMP DEFAULT NOW()
+);

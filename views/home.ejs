@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="/app.css">
+
+<div class="flex-container">
+    <div class="container">
+        <h1>Welcome</h1>
+        <p class="lead">Enter your information to join <strong><%=count%></strong> others on our mailing list.</p>
+        <form method="POST" action='/register'>
+            <input type="text" name="fname" class="form" placeholder="Enter Your First Name">
+            <br>
+            <input type="text" name="lname" class="form" placeholder="Enter Your Last Name">
+            <br>
+            <input type="text" name="email" class="form" placeholder="Enter Your Email">
+            <br>
+            <br>
+            <button>Join Now</button>
+        </form>
+    </div>
+</div>
