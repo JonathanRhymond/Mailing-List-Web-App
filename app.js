@@ -10,7 +10,7 @@ app.use(express.static(__dirname + "/public"))
 var connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'J0n@th@n',
+  password: 'YOUR PASSWORD HERE',
   database: 'mailing_list'
 });
  
