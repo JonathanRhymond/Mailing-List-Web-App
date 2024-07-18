@@ -1,3 +1,0 @@
-// Force ignores ejs files in language detector to avoid confusion
-
-*.ejs linguist-detectable=false
