@@ -8,9 +8,9 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(express.static(__dirname + "/public"))
 
 var connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'J0n@th@n',
+  host: 'localhost', //host set for local MySQL workbench, replace if needed
+  user: 'root', //user set for local MySQL workbench, replace if needed
+  password: 'YOUR PASSWORD HERE',
   database: 'mailing_list'
 });
  
